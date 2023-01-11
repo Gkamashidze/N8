@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -15,6 +16,12 @@
 
 body {
     background-color: #F6F5F4;
+    display: flex;
+    justify-content: center;
+}
+
+#main_container {
+    width: 1180px;
 }
 
 .navbox {
@@ -32,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    width: 1180px;
+    width: 100%;
     height: 36px;
 }
 
@@ -108,7 +115,6 @@ ul li {
 
     margin-top: 94.61px;
 
-    box-sizing: border-box;
 }
 
 .e-course_header {
@@ -126,9 +132,9 @@ ul li {
 } */
 
 .h1 {
-    
-margin-top: 24px;
-margin-bottom: 30px;
+
+    margin-top: 24px;
+    margin-bottom: 30px;
 
 }
 
@@ -175,7 +181,234 @@ p {
     margin-left: 48.78px;
     margin-right: 48.78px;
 }
+
 .img {
     width: 614px;
     height: 510px;
 }
+
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 77.5px;
+
+    background-color: #FFFFFF;
+
+    padding-top: 77.5px;
+    padding-bottom: 77.5px;
+}
+
+.section2 .img2 {
+    width: 580px;
+    height: 445px;
+}
+
+.section2_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2_container>h1 {
+    font-family: dela;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+
+
+.section2_container>span {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.empty_div {
+    background-color: #F2D4DC;
+    width: 129px;
+    height: 112px;
+    border-radius: 14px;
+
+    margin-right: 21.1px;
+}
+
+
+
+.empty_div1 {
+    width: 172px;
+    height: 112px;
+    background-color: #C3DCE3;
+    border-radius: 14px;
+
+}
+
+#girl {
+    margin-top: 30.5px;
+    display: flex;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section3_container {
+    margin-top: 136.01px;
+}
+
+.section3_container>h1 {
+    font-family: dela;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+    margin-bottom: 30px;
+}
+
+.section3_container>span {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+}
+
+.section3_btn>button {
+    width: 131px;
+height: 44px;
+background: #C3DCE3;
+border-color: transparent;
+border-radius: 100px;
+
+font-family: mont;
+color: #2B788B;
+letter-spacing: -0.04em;
+font-size: 16px;
+
+margin-top: 34px;
+}
+
+.img3 {
+    margin-top: 26.03px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+
+    background-color: #FFFFFF;
+
+    padding-top: 95.37px;
+    padding-bottom: 95.37px;
+}
+
+.section4_img {
+    margin-right: 20px;
+
+}
+
+.section4_container>h1 {
+    font-family: dela;
+    font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: #000000;
+
+margin-bottom: 30px;
+}
+
+.section4_container>span {
+    font-family: mont;
+    font-weight: 600;
+font-size: 18px;
+line-height: 140%;
+letter-spacing: -0.04em;
+color: #757575;
+
+}
+
+.section4_btn>button {
+    width: 129px;
+    height: 44px;
+    background: #C3DCE3;
+border-radius: 100px;
+
+border-color: transparent;
+
+font-family: mont;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+color: #2B788B;
+letter-spacing: -0.04em;
+
+margin-top: 34px;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+footer > .ftr_maindiv1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftr_maindiv2 {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_box {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    display: flex;
+}
+
+.copyright>span {
+    font-family: mont;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #757575;
+
+}
+
+.ftr_div2 {
+    width: 197px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    font-family: mont;
+    font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+color: #757575;
+}
+
+
+
